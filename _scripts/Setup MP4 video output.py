@@ -17,6 +17,7 @@ bpy.context.scene.render.ffmpeg.audio_codec = 'AAC'
 bpy.context.scene.render.ffmpeg.audio_bitrate = 128
 bpy.context.scene.render.fps = 60
 bpy.context.scene.render.resolution_percentage = 100
+bpy.context.scene.sync_mode = 'AUDIO_SYNC'
 #bpy.context.scene.render.resolution_x = 1920
 #bpy.context.scene.render.resolution_y = 1080
 
